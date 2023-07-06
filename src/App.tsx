@@ -21,7 +21,7 @@ function App() {
             alt="pokeapi"
           />
         </header>
-        <section className="grid grid-cols-7 gap-4">
+        <section className="grid gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7">
           {pokemons.map((pokemon) => {
             return (
               <PokemonCard
